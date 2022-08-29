@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Cotizador de criptomonedas</title>
+</head>
+<body>
+    <main>
+        <section class="py-4 container">
+            <div class="px-4 pt-2 my-1 border-bottom">
+                <div class="text-center">
+                    <ion-icon name="logo-bitcoin" style="font-size: 60px;"></ion-icon>
+                    <h1 class="display-4 fw-bold">Cotización de criptomonedas</h1>
+                </div>
+                <div class="col-lg-4 mx-auto text-center">
+                    <p class="lead mb-1">¿Necesitas el precio de una criptomoneda en tiempo real?</p>
+                    <form id="formulario">
+                        <div class="row mb-3">
+                            <div class="col">
+                                <div class="form-floating">
+                                    <select class="form-select" id="crypto" name="crypto" aria-label="Floating label select">
+                                        <option disabled selected>BTC, ETH, LTC</option>
+                                        <!-- Se llena con fetch -->
+                                    </select>
+                                    <label for="floatingSelect">Elige una cripto</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <div class="form-floating">
+                                    <select class="form-select" id="moneda" name="currency" aria-label="Floating label select">
+                                        <option disabled selected>USD, EUR, MXN</option>
+                                        <!-- Se llena con fetch -->
+                                    </select>
+                                    <label for="floatingSelect">Elige una moneda</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-secondary">Cotizar</button>
+                        </div>  
+                    </form>
+                </div>
+                <div class="overflow-hidden" style="max-height: 10vh;">
+                    <div class="container px-5 text-center">
+                        <img src="src/img/cryptocurrency.png" class="img-fluid mb-4" alt="cryptocurrency" width="300" height="300" loading="lazy">
+                    </div>
+                </div>
+                <div id="quote" class="row align-items-md-stretch">
+                    <div class="modal modal-tour position-static d-block" tabindex="-1" role="dialog" id="information">
+                        <div class="modal-dialog my-0" role="document">
+                            <div class="modal-content rounded-6 shadow">
+                                <div class="modal-body p-5">
+                                    <h2 class="fw-bold mb-0">Cotización al instante</h2>
+                                    <ul class="d-grid gap-4 my-2 list-unstyled">
+                                        <li class="d-flex gap-4 align-items-center">
+                                            <ion-icon name="cloud-download-outline" style="font-size: 30px;"></ion-icon>
+                                            <div>
+                                                <h5 class="mb-0">Precios actualizados</h5>
+                                                Todos los precios se actualizan en tiempo real.
+                                            </div>
+                                        </li>
+                                        <li class="d-flex gap-4 align-items-center">
+                                            <ion-icon name="cash-outline" style="font-size: 30px;"></ion-icon>
+                                            <div>
+                                                <h5 class="mb-0">Variedad de monedas</h5>
+                                                Conozca el precio de las criptomonedas en su moneda local.
+                                            </div>
+                                        </li>
+                                        <li class="d-flex gap-4 align-items-center">
+                                            <ion-icon name="code-slash-outline" style="font-size: 40px;"></ion-icon>
+                                            <div>
+                                                <h5 class="mb-0">Código optimizado</h5>
+                                                Para una mejor experiencia de usuario con peticiones de precios veloces.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <a href="https://github.com/franj1748?tab=repositories" target="_blank" type="button" class="btn btn-lg btn-secondary mt-4 w-100">Ver más proyectos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="mt-auto mb-3 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2017–2022 Acceso Web</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="src/js/app.js"></script>
+</body>
+</html>

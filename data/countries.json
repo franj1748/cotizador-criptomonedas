@@ -1,0 +1,40 @@
+[
+    {"ISO":"AR","ISO3":"ARG","ISO_Numeric":"032","fips":"AR","country":"Argentina","capital":"Buenos Aires","area":"2766890","Population":"41343201","Continent":"SA","tld":".ar","CurrencyCode":"ARS","CurrencyName":"Peso","Phone":"54","Postal_Code_Format":"@####@@@","Postal_Code_Regex":"^([A-Z]\\d{4}[A-Z]{3})$","Languages":"es-AR,en,it,de,fr,gn","geonameid":"3865483","neighbours":"CL,BO,UY,PY,BR","EquivalentFipsCode":""}
+    ,
+    {"ISO":"AU","ISO3":"AUS","ISO_Numeric":"036","fips":"AS","country":"Australia","capital":"Canberra","area":"7686850","Population":"21515754","Continent":"OC","tld":".au","CurrencyCode":"AUD","CurrencyName":"Dollar","Phone":"61","Postal_Code_Format":"####","Postal_Code_Regex":"^(\\d{4})$","Languages":"en-AU","geonameid":"2077456","neighbours":"","EquivalentFipsCode":""}
+    ,
+    {"ISO":"BR","ISO3":"BRA","ISO_Numeric":"076","fips":"BR","country":"Brazil","capital":"Brasilia","area":"8511965","Population":"201103330","Continent":"SA","tld":".br","CurrencyCode":"BRL","CurrencyName":"Real","Phone":"55","Postal_Code_Format":"#####-###","Postal_Code_Regex":"^(\\d{8})$","Languages":"pt-BR,es,en,fr","geonameid":"3469034","neighbours":"SR,PE,BO,UY,GY,PY,GF,VE,CO,AR","EquivalentFipsCode":""}
+    ,
+    {"ISO":"CA","ISO3":"CAN","ISO_Numeric":"124","fips":"CA","country":"Canada","capital":"Ottawa","area":"9984670","Population":"33679000","Continent":"NA","tld":".ca","CurrencyCode":"CAD","CurrencyName":"Dollar","Phone":"1","Postal_Code_Format":"@#@ #@#","Postal_Code_Regex":"^([ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJKLMNPRSTVWXYZ]) ?(\\d[ABCEGHJKLMNPRSTVWXYZ]\\d)$ ","Languages":"en-CA,fr-CA,iu","geonameid":"6251999","neighbours":"US","EquivalentFipsCode":""}
+    ,
+    {"ISO":"CL","ISO3":"CHL","ISO_Numeric":"152","fips":"CI","country":"Chile","capital":"Santiago","area":"756950","Population":"16746491","Continent":"SA","tld":".cl","CurrencyCode":"CLP","CurrencyName":"Peso","Phone":"56","Postal_Code_Format":"#######","Postal_Code_Regex":"^(\\d{7})$","Languages":"es-CL","geonameid":"3895114","neighbours":"PE,BO,AR","EquivalentFipsCode":""}
+    ,
+    {"ISO":"CO","ISO3":"COL","ISO_Numeric":"170","fips":"CO","country":"Colombia","capital":"Bogota","area":"1138910","Population":"47790000","Continent":"SA","tld":".co","CurrencyCode":"COP","CurrencyName":"Peso","Phone":"57","Postal_Code_Format":"","Postal_Code_Regex":"","Languages":"es-CO","geonameid":"3686110","neighbours":"EC,PE,PA,BR,VE","EquivalentFipsCode":""}
+    ,
+    {"ISO":"CU","ISO3":"CUB","ISO_Numeric":"192","fips":"CU","country":"Cuba","capital":"Havana","area":"110860","Population":"11423000","Continent":"NA","tld":".cu","CurrencyCode":"CUP","CurrencyName":"Peso","Phone":"53","Postal_Code_Format":"CP #####","Postal_Code_Regex":"^(?:CP)*(\\d{5})$","Languages":"es-CU","geonameid":"3562981","neighbours":"US","EquivalentFipsCode":""}
+    ,
+    {"ISO":"DO","ISO3":"DOM","ISO_Numeric":"214","fips":"DR","country":"Dominican Republic","capital":"Santo Domingo","area":"48730","Population":"9823821","Continent":"NA","tld":".do","CurrencyCode":"DOP","CurrencyName":"Peso","Phone":"+1-809 and 1-829","Postal_Code_Format":"#####","Postal_Code_Regex":"^(\\d{5})$","Languages":"es-DO","geonameid":"3508796","neighbours":"HT","EquivalentFipsCode":""}
+    ,
+    {"ISO":"EC","ISO3":"ECU","ISO_Numeric":"218","fips":"EC","country":"Ecuador","capital":"Quito","area":"283560","Population":"14790608","Continent":"SA","tld":".ec","CurrencyCode":"USD","CurrencyName":"Dollar","Phone":"593","Postal_Code_Format":"@####@","Postal_Code_Regex":"^([a-zA-Z]\\d{4}[a-zA-Z])$","Languages":"es-EC","geonameid":"3658394","neighbours":"PE,CO","EquivalentFipsCode":""}
+    ,
+    {"ISO":"ES","ISO3":"ESP","ISO_Numeric":"724","fips":"SP","country":"Spain","capital":"Madrid","area":"504782","Population":"46505963","Continent":"EU","tld":".es","CurrencyCode":"EUR","CurrencyName":"Euro","Phone":"34","Postal_Code_Format":"#####","Postal_Code_Regex":"^(\\d{5})$","Languages":"es-ES,ca,gl,eu,oc","geonameid":"2510769","neighbours":"AD,PT,GI,FR,MA","EquivalentFipsCode":""}
+    ,
+    {"ISO":"JP","ISO3":"JPN","ISO_Numeric":"392","fips":"JA","country":"Japan","capital":"Tokyo","area":"377835","Population":"127288000","Continent":"AS","tld":".jp","CurrencyCode":"JPY","CurrencyName":"Yen","Phone":"81","Postal_Code_Format":"###-####","Postal_Code_Regex":"^(\\d{7})$","Languages":"ja","geonameid":"1861060","neighbours":"","EquivalentFipsCode":""}
+    ,
+    {"ISO":"MX","ISO3":"MEX","ISO_Numeric":"484","fips":"MX","country":"Mexico","capital":"Mexico City","area":"1972550","Population":"112468855","Continent":"NA","tld":".mx","CurrencyCode":"MXN","CurrencyName":"Peso","Phone":"52","Postal_Code_Format":"#####","Postal_Code_Regex":"^(\\d{5})$","Languages":"es-MX","geonameid":"3996063","neighbours":"GT,US,BZ","EquivalentFipsCode":""}
+    ,
+    {"ISO":"PA","ISO3":"PAN","ISO_Numeric":"591","fips":"PM","country":"Panama","capital":"Panama City","area":"78200","Population":"3410676","Continent":"NA","tld":".pa","CurrencyCode":"PAB","CurrencyName":"Balboa","Phone":"507","Postal_Code_Format":"","Postal_Code_Regex":"","Languages":"es-PA,en","geonameid":"3703430","neighbours":"CR,CO","EquivalentFipsCode":""}
+    ,
+    {"ISO":"PE","ISO3":"PER","ISO_Numeric":"604","fips":"PE","country":"Peru","capital":"Lima","area":"1285220","Population":"29907003","Continent":"SA","tld":".pe","CurrencyCode":"PEN","CurrencyName":"Sol","Phone":"51","Postal_Code_Format":"","Postal_Code_Regex":"","Languages":"es-PE,qu,ay","geonameid":"3932488","neighbours":"EC,CL,BO,BR,CO","EquivalentFipsCode":""}
+    ,
+    {"ISO":"PY","ISO3":"PRY","ISO_Numeric":"600","fips":"PA","country":"Paraguay","capital":"Asuncion","area":"406750","Population":"6375830","Continent":"SA","tld":".py","CurrencyCode":"PYG","CurrencyName":"Guarani","Phone":"595","Postal_Code_Format":"####","Postal_Code_Regex":"^(\\d{4})$","Languages":"es-PY,gn","geonameid":"3437598","neighbours":"BO,BR,AR","EquivalentFipsCode":""}
+    ,
+    {"ISO":"RU","ISO3":"RUS","ISO_Numeric":"643","fips":"RS","country":"Russia","capital":"Moscow","area":"17100000","Population":"140702000","Continent":"EU","tld":".ru","CurrencyCode":"RUB","CurrencyName":"Ruble","Phone":"7","Postal_Code_Format":"######","Postal_Code_Regex":"^(\\d{6})$","Languages":"ru,tt,xal,cau,ady,kv,ce,tyv,cv,udm,tut,mns,bua,myv,mdf,chm,ba,inh,tut,kbd,krc,ava,sah,nog","geonameid":"2017370","neighbours":"GE,CN,BY,UA,KZ,LV,PL,EE,LT,FI,MN,NO,AZ,KP","EquivalentFipsCode":""}
+    ,
+    {"ISO":"US","ISO3":"USA","ISO_Numeric":"840","fips":"US","country":"United States","capital":"Washington","area":"9629091","Population":"310232863","Continent":"NA","tld":".us","CurrencyCode":"USD","CurrencyName":"Dollar","Phone":"1","Postal_Code_Format":"#####-####","Postal_Code_Regex":"^\\d{5}(-\\d{4})?$","Languages":"en-US,es-US,haw,fr","geonameid":"6252001","neighbours":"CA,MX,CU","EquivalentFipsCode":""}
+    ,
+    {"ISO":"UY","ISO3":"URY","ISO_Numeric":"858","fips":"UY","country":"Uruguay","capital":"Montevideo","area":"176220","Population":"3477000","Continent":"SA","tld":".uy","CurrencyCode":"UYU","CurrencyName":"Peso","Phone":"598","Postal_Code_Format":"#####","Postal_Code_Regex":"^(\\d{5})$","Languages":"es-UY","geonameid":"3439705","neighbours":"BR,AR","EquivalentFipsCode":""}
+    ,
+    {"ISO":"VE","ISO3":"VEN","ISO_Numeric":"862","fips":"VE","country":"Venezuela","capital":"Caracas","area":"912050","Population":"27223228","Continent":"SA","tld":".ve","CurrencyCode":"VEF","CurrencyName":"Bolivar","Phone":"58","Postal_Code_Format":"####","Postal_Code_Regex":"^(\\d{4})$","Languages":"es-VE","geonameid":"3625428","neighbours":"GY,BR,CO","EquivalentFipsCode":""}
+
+]
